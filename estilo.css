@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 2, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+h1{
+    width: 70%;
+    font-size: 30px;
+}
+
+.principal img{
+    width: 300px;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.principal{
+    background-color: rgb(228, 72, 33);
+    text-align:center;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+    
+.header{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header a {
+    color: rgb(28, 216, 169);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+display: flex;
+height: inherit;
+}
+
+
+.logo img{
+    width: 100px;
+}
+
+
+.juguetes{
+    background-color: rgb(8, 37, 37);
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+    font-size: 20px;
+}
+/*
+.padre{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content:center;
+    height: 500px;
+    align-items: center;
+}
+
+
+.hijo{
+    background-color: rgb(44, 30, 4);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 81, 255);
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+.juguetes h2{
+color: blue;
+margin: 10px;
+}
+
+.juguetes p{
+    margin-bottom: 20px;
+}
+
+
+.tercero{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.aplicar{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: black;
+}
+
+.aplicar-detalles{
+    width: 30%;
+    height: inherit;
+}
+
+.aplicar-detalles img{
+    height: 90%;
+}
+
+.container1{
+    display: flex;
+    background: rgb(0, 255, 38);
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.container2{
+    background: black;
+}
+
+.col1-container{
+width: 400px;
+}
+
+.col2-container{
+width: 200px;
+}
+
+
+.col3-container{
+width: 300px;
+}
+
+.row1-contacto img{
+    width: 35px;
+}
+
+.row2-contacto img{
+    width: 35px;
+}
+
+.row1-redes img{
+    width: 35px;
+}
